@@ -15,9 +15,9 @@ let stringExample: string = undefined // Pero el valor "undefined" podemos asign
 //tu proyecto, entonces, tal vez no veas los cambios
 
 function noImplicitType(firstArg, secondArg) {
-    console.log("First Argument: ", firstArg);
-    console.log("Second Argument: ", secondArg);
-  }
+  console.log("First Argument: ", firstArg);
+  console.log("Second Argument: ", secondArg);
+}
   
   noImplicitType(1,2);
   noImplicitType("Franco", "Etcheverri");
